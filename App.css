@@ -1,0 +1,147 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.headercontainer {
+  margin-left: 4rem;
+}
+
+/* ------------------   searchmenu container   ---------------- */
+
+/* ----------------------   Line ------------------- */
+.line {
+  border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+/* ----------------------   logo container  ------------------- */
+
+.logodiv {
+  display: flex;
+  justify-content: center;
+}
+
+.logocontainer {
+  align-self: flex-start;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 800;
+  letter-spacing: -5px;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+.logocontainer:hover {
+  cursor: pointer;
+}
+/* ----------------------   logo 8  ------------------- */
+.eight {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.15rem;
+}
+/* ----------------------   logo V  ------------------- */
+.v {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.1rem;
+}
+
+/* -------------------   Search Container  -------------- */
+.searchmenu {
+  display: flex;
+  justify-content: center;
+  margin-right: 4rem;
+}
+.searchbar {
+  margin-top: 1.2rem;
+  width: 38em;
+  height: 2.8rem;
+  border-radius: 1.4rem;
+  border: 1px solid rgb(196, 196, 196);
+  transition: all 0.2s ease-in-out;
+}
+
+/* ----------------------   Search Form  ------------------- */
+.searchform {
+  display: flex;
+  margin: 0 auto;
+}
+
+/* ----------------------   Search input ------------------- */
+.searchbar input[type="text"] {
+  height: 2.7rem;
+  margin-left: 2rem;
+  border: none;
+  font-size: 16px;
+  flex: 2 1 auto;
+  background-color: none;
+}
+.searchbar input[type="text"]:focus {
+  outline: transparent;
+}
+.searchbar:hover {
+  border: 1px solid rgb(54, 54, 54);
+}
+/* ----------------------   Search icon ------------------- */
+.searchicon {
+  margin-right: 1rem;
+  align-self: center;
+  margin-top: 5px;
+  background-color: transparent;
+  border: none;
+}
+.searchbutton:hover {
+  color: rgb(94, 169, 255);
+}
+.searchicon:hover {
+  cursor: pointer;
+  border: none;
+}
+.searchicon:focus {
+  outline: transparent;
+}
+
+/* ---------------------- Menu Item------------------- */
+.menucontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 35em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.03em;
+  color: rgb(0, 0, 0);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menuitem a {
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: color 0.2s ease-in-out;
+}
+.menuitem a:hover {
+  color: rgb(158, 158, 158);
+}
+
+.menudiv::-webkit-scrollbar {
+  height: 3px;
+}
+
+.menudiv::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.menudiv::-webkit-scrollbar-thumb {
+  width: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+/* -------------slider---------- */
+.slider img {
+  width: auto;
+}
